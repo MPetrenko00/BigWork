@@ -1,0 +1,356 @@
+@import url('reset.css');
+
+
+/*_________________________________*/
+
+body {
+    font-family: 'Roboto';
+	font-weight: 500;
+}
+
+.header{
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+}
+
+.second-ul{
+    font-family: 'Montserrat';
+	font-weight: 300;
+}
+
+/*_________________________________*/
+
+/*MENU*/
+
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+.header {
+	background: #000;
+	padding: 16px 0;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+
+.menu {
+	display: flex;
+	justify-content: center;
+	background: #000;
+	gap: 30px;
+}
+
+.menu a {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	padding: 10px 25px;
+}
+
+.menu > li {
+	text-transform: uppercase;
+	position: relative;
+}
+
+.menu > li:hover .second-ul {
+	display: block;
+}
+
+.second-ul  {
+	padding: 20px 0 0;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #000;
+	z-index: 1;
+	display: none;
+}
+
+.second-ul > li {
+	background: #000;
+}
+
+.menu li:nth-child(even) a {
+	color: rgb(253, 244, 244);
+}
+.menu li:nth-child(odd) a {
+	color: #ffffff;
+}
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu li a.active {
+	color: rgb(159, 90, 177);
+}
+
+
+.second-ul li > ul li  {
+	position: absolute;
+    background: #000;
+    left: -120px;
+    top: 155px;
+}
+
+.second-ul  li:hover > ul {
+	display: block;
+}
+
+.second-ul ul{
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* _________Gallery_________ */
+
+.box{
+	max-width: 1140px;
+	padding: 50px 0;
+	margin: 0 auto;
+	position: relative;
+    text-align: center;
+}
+
+
+.gallerys {
+	width: 500px;
+	margin: 0 auto 50px;
+    height: 300px;
+	position: relative;
+	font-size: 0;
+    text-align: center;
+}
+
+.gallerys img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gallery-text {
+	background: rgba(145, 139, 139, 0.5);
+	position: absolute;
+	top: 50%;
+	left: 0;
+    right: 0;
+	font-size: 20px;
+	color: rgb(33, 33, 34);
+	display: none;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;    
+    height: 150px;
+    margin-top: -75px;
+    width: 100%;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.gallerys:hover .gallery-text {
+	display: flex;
+}
+
+
+
+
+
+
+
+/* _____________Float__________________ */
+
+
+.clearfix::after{
+    clear: both;
+    content: '';
+    display: block;
+
+}
+
+.box_1{
+    width: 1200px;
+    margin: 0 auto;  
+}
+
+.case{
+    font-size: 0;
+    text-align: justify;
+}
+
+.card-1{
+    width: 400px;
+    height: 400px;
+    outline: 1px solid gray;
+    float: left;
+}
+
+.card-4{
+    width: 400px;
+    height: 400px;
+    outline: 1px solid gray;
+    float: left;
+}
+
+.card-5{
+    width: 800px;
+    height: 200px;
+    outline: 1px solid gray;
+    float: left;
+}
+
+.card-6{
+    width: 400px;
+    height: 200px;
+    outline: 1px solid gray;
+    float: left;
+}
+
+.card-7{
+    width: 400px;
+    height: 100px;
+    outline: 1px solid gray;
+    float: left;
+}
+
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.yellow > div {
+    width: 800px;
+    float: left;
+    outline: 1px solid gray;
+}
+
+.yellow > div + div{
+    width: 400px;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.h-133{
+    height: 133.3px;
+    outline: 1px solid gray ;
+}
+
+.h-200{
+   height: 200px;
+   outline: 1px solid gray ;
+}
+
+
+/* _____________CARDS__________________ */
+
+.container-1{
+    width: 1200px;
+    margin: 0 auto;  
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.section-cards h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+   }
+   
+   .section-cards h1 + p{
+   font-size: 20px;
+   margin-bottom: 30px;
+   }
+   
+   .cards {
+       font-size: 0;
+   }
+   
+   .card {
+       display: inline-block;
+       font-size: 16px;
+       width: 400px;
+       padding: 10px;
+   }
+   
+   .card-item {
+       border: 2px solid rgb(231, 174, 183);
+       padding: 3px;
+       border-radius: 5px;
+   }
+   
+   .link-image {
+       display: block;
+       height: 200px;
+   }
+   
+   .link-image img{
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+   }
+
+
+
+/* _______________Table________________ */
+
+.container-2 {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+table, th, td  {
+	border: 1px solid;
+}
+
+.table td {
+	width: 50px;
+	height: 50px;
+}
+
+.main-table {
+	margin-top: 50px;
+	width: 1100px;
+}
+
+.main-table td {
+	width: 400px;
+}
+
+
+.table-container {
+	width: 600px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.mosonry td {
+	width: 150px;
+	height: 150px;
+}
+
+
+
+
+

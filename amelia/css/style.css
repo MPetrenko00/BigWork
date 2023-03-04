@@ -1,0 +1,321 @@
+@import url('reset.css');
+/* font-family: 'Montserrat', sans-serif; */
+
+/* !GLOBAL STYLES */
+body {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+background: #F5F5F5;
+color: #161616;
+font-size: 18px;
+}
+.container {
+	max-width: 1140px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/*Header*/
+.header{
+  background: #81A36B;
+  padding: 20px 0;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.header-logo{
+    width: 155px;
+    height: 39px;
+}
+
+.header-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.header-menu{
+    display: flex; 
+    align-items: center; 
+    gap: 90px
+}
+
+.header-menu > li a{
+    color: #161616;
+    text-decoration: none ;
+}
+
+
+
+
+
+
+/*flower*/
+
+.flower .container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/*.headr-box{
+
+}*/
+
+.flower-image{
+    height: 670px;
+    margin-left: 30px;
+}
+
+.flower-image img{
+    flex: 0 0 100%;
+}
+
+.m-40{
+    margin: 0 0 40px 0;
+}
+
+.m-60{
+    margin-bottom: 60px;
+}
+
+
+
+
+/*flower2*/
+.flower-2 .container{
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.padding40{
+    padding: 40px;
+}
+
+.box-1{
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+
+/*------------------------------------------*/
+
+.text-1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+    font-size: 50px;
+}
+
+.text-2{
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+    font-size: 30px;
+    padding: 0 0 60px;
+}
+
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+
+
+/*flower3*/
+.flower-3 .container .header-box{
+    display: flex;
+    align-items: center;
+}
+
+.flower-3 {
+    padding: 120px 0;
+}
+
+.box-2{
+    display:flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.flower-image_2{
+    height: 560px;
+}
+
+.flower-image_2 img{
+    flex: 0 0 100%;
+}
+
+
+
+
+
+/*Button*/
+
+.button{
+   display: flex;
+   margin: 0 -60px;
+
+}
+
+
+.button-1{
+    color:#000;
+    padding: 16px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    background: #81A36B;
+    border: 0;
+    outline: 1px solid #7c9c66 ;
+    margin: 0 60px;
+    
+}
+
+.button-2{
+    color:#000;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    background: transparent;
+    border: 0;
+    outline: 1px solid #81A36B ;
+}
+
+
+
+/*-----------------------*/
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.section-cards h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+   
+ .section-cards h1 + p{
+   font-size: 20px;
+   margin-bottom: 30px;
+ }
+   
+   .cards {
+      display: flex;
+      gap:30px;
+      padding: 0 0 60px;
+
+   }
+   
+   .card {
+      background: #81A36B;
+       font-size: 16px;
+       width: 33%;
+       padding: 15px 15px 40px;
+       
+   }
+
+   .card-text{
+    padding: 16px;
+   }
+
+
+   
+  /* .cards-item {
+       border: 1px solid #81A36B;
+       padding: 3px;
+       border-radius: 3px;
+   } */
+   
+   .link-image {
+       display: block;
+       height: 402px;
+   }
+   
+   .link-image img{
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+   }
+
+   /*-----------------------*/
+
+
+
+/* *TODO: PRICE */
+.price {
+	background: #81A36B;
+	padding: 80px 0;
+}
+
+.price-box {
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.price-box img{
+    margin: 0 0 20px;
+}
+
+
+
+/* !FOOTER */
+.footer {
+	background: #81A36B;
+	padding: 60px 0;
+}
+
+.flex-conteiner {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.flex-conteiner h3 {
+	font-size: 24px;
+	line-height: 26px;
+	margin-bottom: 40px;
+}
+
+.footer-contact a {
+	color: #161616;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.footer-contact ul > li + li {
+	margin-top: 20px;
+}
+
+
+/* .footer-contact ul > li:last-child {
+	margin-bottom: 0;
+} */
+
+
+.footer-year {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	text-align: center;
+}
+
+
+
+
+
+
+.flex-container{
+    display:flex;
+    text-align: center;
+    left: 0;
+    margin-top: 80px;
+}
+
