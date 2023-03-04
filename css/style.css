@@ -71,6 +71,7 @@ body {
 }
 
 .second-ul > li {
+    position: relative;
 	background: #000;
 }
 
@@ -93,8 +94,8 @@ body {
 .second-ul li > ul li  {
 	position: absolute;
     background: #000;
-    left: -120px;
-    top: 155px;
+    top:0;
+    right:100%;
 }
 
 .second-ul  li:hover > ul {
