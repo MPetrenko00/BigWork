@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Roboto';
-	src: url('../fonts/Roboto-Medium.ttf');
+	src: url('../fonts/roboto-medium-webfont.woff2');
 	font-weight: 500;
 }
 
@@ -12,7 +12,7 @@
 
 @font-face {
 	font-family: 'Montserrat Alternates';
-	src: url('../fonts/MontserratAlternates-SemiBold.ttf');
+	src: url('../fonts/montserratalternates-semibold-webfont.woff2');
 	font-weight: 600;
 }
 
