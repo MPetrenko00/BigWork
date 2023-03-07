@@ -116,8 +116,9 @@ body {
 	max-width: 1140px;
     padding: 60px 0;
 	margin: 0 auto;
-	background: rgb(163, 138, 190);
+	background: rgb(177, 162, 194);
 	position: relative;
+    text-align: center;
 }
 
 .hidden {
@@ -128,10 +129,6 @@ body {
 }
 
 
-html {
-	font-size: 20px;
-}
-
 body {
 	font-size: 20px;
 }
@@ -139,18 +136,19 @@ body {
 
 .block {
 	font-size: 1rem;
-	padding: 2rem;
+	padding: 0.5rem;
 }
 
 
 .icon {
 	width: 50px;
 	height: 50px;
-	fill: rgb(175, 131, 184);
+	fill: rgb(61, 23, 68);
+    margin: 20px;
 }
 
 .icon:hover {
-	fill: #6d1c6d;
+	fill: #853e85;
 }
 
 
