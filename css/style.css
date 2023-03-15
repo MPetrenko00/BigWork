@@ -90,9 +90,9 @@ body {
 	text-transform: uppercase;
 }
 
-/*.menu li a.active {
+.menu li a.active {
 	color: rgb(159, 90, 177);
-}*/
+}
 
 
 .second-ul li > ul li  {
@@ -112,7 +112,82 @@ body {
 }
 
 
+/*___________menu+svg________________*/
 
+.header-icon {
+	width: 25px;
+	height: 25px;
+	fill: rgb(255, 255, 255);
+}
+
+.header-icon2{
+    position: relative;
+    right: 0;
+    width: 25px;
+	height: 25px;
+	fill: rgb(255, 255, 255);  
+}
+
+
+.menu {
+	font-size: 0;
+} 
+
+.menu li {
+	display: inline-block;
+	font-size: 1.5rem;
+
+} 
+
+.menu li:nth-child(1) {
+	padding-left: 25px;
+}
+
+.menu li:nth-child(2) {
+	padding-left: 25px;
+}
+
+/*.menu li:nth-child(3) {
+	padding-right: 25px;
+}*/
+
+
+
+.menu svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 40px;
+}
+
+.menu li:hover a {
+	color: rgb(255, 0, 140);
+}
+
+.menu li:hover svg {
+	fill: rgb(255, 0, 140);
+}
+
+
+
+
+/*.text{
+    position: relative ;
+    padding-right: 25px;
+}
+
+.text::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(arrow-down.svg) center 0 no-repeat;
+}*/
+
+
+
+/*_________________________________*/
 
 /*__________Home_____________________*/
 
@@ -158,59 +233,6 @@ body {
 
 /*_________________________________*/
 
-
-/*___________menu+svg________________*/
-
-.header-icon {
-	width: 25px;
-	height: 25px;
-	fill: rgb(255, 255, 255);
-}
-
-
-.menu {
-	font-size: 0;
-} 
-
-.menu li {
-	display: inline-block;
-	font-size: 1.5rem;
-
-} 
-
-.menu li:nth-child(1) {
-	padding-left: 25px;
-}
-
-.menu li:nth-child(2) {
-	padding-left: 25px;
-}
-
-.menu li:nth-child(3) {
-	padding-right: 25px;
-}
-
-
-
-.menu svg {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 40px;
-	height: 40px;
-}
-
-.menu li:hover a {
-	color: rgb(255, 0, 140);
-}
-
-.menu li:hover svg {
-	fill: rgb(255, 0, 140);
-}
-
-
-
-/*_________________________________*/
 
 
 
@@ -358,6 +380,8 @@ body {
 }
 
 
+
+
 /* _____________CARDS__________________ */
 
 .container-1{
@@ -412,6 +436,9 @@ body {
        object-fit: cover;
    }
 
+
+
+   
 
 
 /* _______________Table________________ */
