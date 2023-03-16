@@ -100,15 +100,17 @@ body {
 	position: absolute;
     background: #000;
     top:0;
-    right:100%;
+    right: -1000%;
+    transition: all 1s cubic-bezier(.19,.43,.85,.52);
 }
 
-.second-ul  li:hover > ul {
-	display: block;
+.second-ul  li:hover > ul li {
+	/*display: block;*/
+    right: 100%;
 }
 
 .second-ul ul{
-    display: none;
+   /*display: none;*/
 }
 
 
