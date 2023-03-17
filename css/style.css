@@ -175,6 +175,9 @@ display: none;
 	justify-content: space-between;
 }
 
+.menu-footer:hover{
+    transform: scaleY(5);
+}
 .menu-footer a {
 	color: #fff;
 	display: block;
@@ -187,8 +190,72 @@ display: none;
 }
 
 
+.box-10{
+    height: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+
+
+.box-10:hover{
+    background: #bde48a;
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
 
 /*_________________________________*/
+
+
+/* КВАДРАТ ЗЕЛЕНИЙ */
+
+#cuadrat{
+    width: 200px;
+    height: 50px;
+    background: green;
+    transition-property: transform;
+    transition-duration: 2s;
+    margin: 0 auto;
+}
+
+#cuadrat:hover{
+    transform: scaleY(7) ;
+}
+
+/*_________________________________*/
+
+/*_________________________________*/
+
+
+
+.container-5{
+    background: #853e85;
+    width: 50%;
+    margin: 50px auto;
+    display: flex;
+    padding: 20px;
+}
+
+.box-7{
+    background: #bde48a;
+    height: 100px;
+    padding: 25px;
+    border: #000 solid 1px;
+    flex: 1;
+    transition: 1s;
+}
+
+.box-7:hover{
+    flex:4;
+    background:#ccc;
+}
+
+
+
+
+
+
 
 /*__________Home_____________________*/
 
