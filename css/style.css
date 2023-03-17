@@ -110,9 +110,9 @@ body {
     right: 100%;
 }
 
-.second-ul ul{
-   /*display: none;*/
-}
+/*.second-ul ul{
+display: none;
+}*/
 
 
 /*___________menu+svg________________*/
@@ -156,6 +156,36 @@ body {
 .menu li:hover svg {
 	fill: rgb(255, 0, 140);
 }
+
+
+/*_________________________________*/
+
+/* !FOOTER */
+
+
+.menu-footer {
+	background: #6f6ba3;
+	padding: 10px 10px 10px 10px;
+    max-width: 150px;
+	margin: 0 auto;
+}
+
+.flex-conteiner_1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-footer a {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+
+.menu-footer > li {
+	text-transform: uppercase;
+	position: relative;
+}
+
 
 
 /*_________________________________*/
