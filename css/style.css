@@ -191,8 +191,8 @@ display: none;
 
 
 .box-10{
-    height: 10px;
-    padding: 10px;
+    height: 25px;
+    padding: 25px;
     margin: 0 auto;
 }
 
@@ -208,6 +208,8 @@ display: none;
 /*_________________________________*/
 
 
+
+
 /* КВАДРАТ ЗЕЛЕНИЙ */
 
 #cuadrat{
@@ -217,11 +219,35 @@ display: none;
     transition-property: transform;
     transition-duration: 2s;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 #cuadrat:hover{
-    transform: scaleY(7) ;
+    transform: translateY(10px);
 }
+
+/* КВАДРАТ yello*/
+
+
+.test{
+    width: 200px;
+    height: 50px;
+    background: rgb(85, 133, 85);
+    margin: 20px auto;
+    overflow: hidden; 
+    transition-property: transform;
+    transition-delay: 1s, 250ms;
+}
+
+.test:hover{
+    transform: scaleY(2);
+}
+
+
+
+
+
+
 
 /*_________________________________*/
 
