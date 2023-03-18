@@ -251,6 +251,53 @@ display: none;
 
 /*_________________________________*/
 
+.but-1{
+    background: #6f6ba3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dropbutton{
+    background: #e02e2e;
+    color: #fff;
+    padding: 18px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-1{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown{
+    position: absolute;
+    background: #ccc;
+    min-width: 180px;
+    display: none;
+}
+
+.dropdown div{
+    text-decoration: none;
+    color: #853e85;
+    height: 25px;
+    padding: 25px;
+    display: block;
+}
+
+.dropdown div:hover{
+    background-color: #756666;
+}
+
+.nav-1:hover .dropdown{
+    display: block;
+}
+
+
+
 /*_________________________________*/
 
 
