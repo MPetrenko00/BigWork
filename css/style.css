@@ -249,7 +249,7 @@ display: none;
 .test{
     text-align: center;
     padding: 10px 0;
-    background: rgb(85, 133, 85);
+    background: rgb(218, 201, 48);
 }
 
 .list-1{
@@ -260,6 +260,7 @@ display: none;
     justify-content: center;
     padding: 40px 0;
     gap: 1px;
+    transform: rotate(45deg);
 }
 
 .list-1 > li {
@@ -267,19 +268,34 @@ display: none;
     overflow: hidden;
 }
 
+.list-1 svg{
+    transform: rotate(-45deg);
+    max-width: 100%;
+}
+
 .list-1 > li a{
-    background: #6d68b9;
+    background: #ece0ad;
     text-decoration: none;
     display: block;
-    color: #adabd3;
+    color: #64521e;
     width: 40px;
 }
 
 .test-icon {
 	width: 40px;
 	height: 40px;
-	fill: rgb(255, 255, 255);
+	fill: rgb(138, 73, 0);
 }
+
+.box-9 li:hover a {
+	color: rgb(167, 127, 43);
+}
+
+.box-9 li:hover svg {
+	fill: rgb(202, 170, 26);
+}
+
+
 
 /*.test > li:hover .list-1 {
     right: 100%;
