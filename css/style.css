@@ -238,6 +238,8 @@ display: none;
     width: 200px;
     background: radial-gradient(#e5e918, #fff );
     transform: translateY(calc(100% - 40px));
+    transition-property: transform;
+    transition-duration: 2s;
 }
 
 
@@ -250,6 +252,13 @@ display: none;
     text-align: center;
     padding: 10px 0;
     background: rgb(218, 201, 48);
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.test:hover{
+   /* animation-play-state: paused ;*/
+   animation: none;
 }
 
 .list-1{
@@ -295,6 +304,27 @@ display: none;
 	fill: rgb(202, 170, 26);
 }
 
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
 
 
 /*_________________________________*/
