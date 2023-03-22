@@ -246,6 +246,11 @@ display: none;
     transform: translateY(0);
 }
 
+.box-9:hover .test{
+    /* animation-play-state: paused ;*/
+    animation: none;
+}
+
 .test{
     text-align: center;
     padding: 10px 0;
@@ -254,10 +259,6 @@ display: none;
     animation-iteration-count: infinite;
 }
 
-.test:hover{
-   /* animation-play-state: paused ;*/
-   animation: none;
-}
 
 .list-1{
     display: flex;
@@ -277,7 +278,6 @@ display: none;
 
 .list-1 svg{
     transform: rotate(-45deg);
-    max-width: 100%;
 }
 
 .list-1 > li a{
